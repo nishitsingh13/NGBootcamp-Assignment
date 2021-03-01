@@ -1,0 +1,70 @@
+/* Here backgroung color for the whole body is given */
+/* you can change it by hovering over the color box placed before rgba and choose your own prefered color  */
+body{
+
+    background-color: rgba(226, 236, 228, 0.212);
+
+}
+
+/* this is the main styling , */
+/* this is done on the main content , that is 'letters' , 'numbers' , 'boxes' over it  */
+/* you can change it as per your preferences */
+div {
+
+    position: sticky;
+    top: 250px ;
+    border: 2px solid black;
+    margin: 250px 0px 80px 0px;
+    height: 50px ;
+    width: 100% ;
+    background-color: coral;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+/* this styling is done on the heading/heador  */
+/* which you can see on the top of the display */
+/* this styling is done as per current scenario and can be changed in future  */
+header section span{
+
+    position: fixed;
+    border: 2px solid black;
+    top: 10px;
+    text-align: center;
+    width: 99%;
+    padding-top: 45px;
+    height: 100px;
+    background-color: lightslategrey;
+    display: block;
+
+}
+
+/* this styling is  done speccifically for the section where numbers are visible  */
+section strong div span{
+
+    display: block;
+    border: 2px solid black;
+    position: sticky;
+    background-color: white; 
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+
+}
+
+/* this is for the footer/base  */
+footer strong{
+
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(245, 177, 74);
+    padding: 30px 0px 30px 0px;
+
+}
+
+/* this is done for adding unicode before the contact numbers */
+/* you can change it by simply editing the content section  */
+section div span p::before{
+    content: "\1F4DE  ";
+}
+
