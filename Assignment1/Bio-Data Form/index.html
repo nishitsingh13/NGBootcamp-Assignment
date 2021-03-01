@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Bio-Data Form </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+      
+      <h1 align="center">Bio-Data Form</h1>
+
+        <form> 
+        
+        <fieldset> 
+        <legend> Personal Information</legend>
+        <br>
+
+        <label for="First Name"> First Name : </label>
+        <input type="text" id="First Name" placeholder="First Name" name="First Name" required>
+         
+        &nbsp;&nbsp;&nbsp;
+        
+        <label for="Last Name"> Last Name : </label>
+        <input type="text" id="Last Name" placeholder="Last Name" name="Last Name" required>
+
+        <br> <br> 
+
+        <label for=""> Gender : &nbsp;&nbsp;&nbsp;
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">        
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="gender">
+        </label>
+
+        <br> <br> 
+
+        <label for="date"> Date Of Birth : </label>
+        <input type="date" id="date" required>
+
+        <br><br>
+
+        <label for="email"> Email : </label>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+
+        <br><br>
+
+        <label for="phone">Phone Number : </label>
+        <input type="tel" id="phone" maxlength="10" placeholder="+91">
+
+        <br><br>
+
+        <label for="height">Height : </label>
+        <input type="height" id="height"  placeholder="Height in Feet">
+
+        <br><br>
+
+        </fieldset>
+        <fieldset>
+         
+        <legend> Education Details </legend>
+        <br>
+
+        <label for="college"> College Name : </label>
+        <input type="text" id="college" placeholder="College Name" required>        
+
+        <br><br>
+
+        <label for="class"> Class : </label>
+        <input type="text" id="class" placeholder="Enter class">
+
+        <br><br>
+
+        <label for="stream"> Stream : </label>
+        <select id="stream" name="stream" required>
+        <option> --- </option>
+        <option> CSE </option>
+        <option> IT </option>
+        <option> Mechanical </option>
+        <option> Electrical </option>
+        <option> Electronics </option>
+        <option> Automobile </option>
+        </select>
+
+        <br><br>
+
+        Marksheet : &nbsp;&nbsp;
+        <input type="file" >
+        <br><br>
+
+        </fieldset>
+
+        <br>
+        <input type="submit" >
+
+        </form>
+
+    </body>
+</html>
