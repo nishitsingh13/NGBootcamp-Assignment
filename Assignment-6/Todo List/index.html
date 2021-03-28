@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+   
+    <section class="head-nav" id="navbar">
+        <div id="nav-logo">
+            <img src="./logo.png" alt="nav-logo">
+        </div>
+
+        <input type="text" name="Search" id="search" placeholder="Search">
+
+        <div id="nav-items">
+            <a href="https://www.timeanddate.com/calendar/" target="_blank"> Calender </a>
+            <a href="#" > Trash </a>
+        </div>
+    </section>
+
+    <button id="btn-create-todo"><i class="fas fa-plus-circle"></i></button>
+
+    <section id="create-todo">
+
+        <div id="input-todo">
+            <input type="text" name="head" id="create" placeholder="Heading">
+            <button id="btnadd"> Add </button>
+        </div>
+        <div id="main-text-cont">
+            <input type="text" name="main-item" id="create-main" placeholder="Write Your Task !!..">
+        </div>
+    </section>
+
+    <section id="todo-sec" style="display: none;">
+        <div id="todo-items">
+            <div id="item-nav">
+                <div id="item-head"><li style="list-style: none;"></li></div>
+                <button><i class="fas fa-arrow-circle-left"></i></button>
+                <button><i class="fas fa-arrow-circle-right"></i></button>
+                <button><i class="far fa-edit"></i></button>
+                <button id="trash-btn"><i class="fas fa-trash"></i></button>
+            </div>
+            <div id="item-main"></div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
