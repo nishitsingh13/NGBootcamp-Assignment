@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./assets/js/lib/jquery.js"></script>
+    <title>Weather App</title>
+</head>
+<body background="./assets/images/background.jpg" style="background-repeat: no-repeat; background-size:130%;">
+
+    <header>
+        <nav>
+            <img src="./assets/images/logo.png" alt="logo">
+            <span>Weather App</span>
+            <input type="text" name="searchCity" id="enterCity" placeholder="Enter City Name">
+            <button id="btn-reset">Reset</button>
+        </nav>
+    </header>
+
+    <div>
+        <ul>
+            <li>
+                <span id="city"></span> 
+                <span id="country"></span>
+            </li>
+            <li>
+                <span id="date"></span>
+            </li>            
+            <li>
+                <span id="temp"></span>
+            </li>
+            <li>
+                <span id="atm"></span>
+            </li>
+            <li>
+                <span id="mnT"></span> 
+                <span id="mxT"></span>
+            </li>
+        </ul>
+    </div>
+    
+    <script src="./assets/js/app.js"></script>
+    
+</body>
+</html>
